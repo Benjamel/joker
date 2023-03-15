@@ -1,0 +1,20 @@
+{
+  "name": "joker",
+  "version": "0.0.1",
+  "description": "Application thtat tells jokes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Benjamin Meldal",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Benjamel/joker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Benjamel/joker/issues"
+  },
+  "homepage": "https://github.com/Benjamel/joker#readme"
+}
