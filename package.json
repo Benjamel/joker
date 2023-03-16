@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "node src/js/joker.js"
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
   },
   "keywords": [],
   "author": "Benjamin Meldal",
