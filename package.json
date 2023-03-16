@@ -1,12 +1,14 @@
 {
   "name": "benjamel-joker",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "Application that tells jokes",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "node src/js/joker.js",
-    "format": "prettier -w src/js/joker.js"
+    "test": "node src/js/joker.test.js",
+    "format": "prettier -w src/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --cache --fix"
   },
   "keywords": [],
   "author": "Benjamin Meldal",
@@ -20,6 +22,11 @@
   },
   "homepage": "https://github.com/Benjamel/joker#readme",
   "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
     "prettier": "^2.8.4"
   },
   "dependencies": {
