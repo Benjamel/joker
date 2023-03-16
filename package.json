@@ -1,6 +1,6 @@
 {
   "name": "benjamel-joker",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Application that tells jokes",
   "type": "module",
   "main": "index.js",
