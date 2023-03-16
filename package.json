@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node src/js/joker.test.js",
-    "format": "prettier -w src/**/*.js"
+    "format": "prettier -w src/**/*.js",
+    "lint": "eslint src/**/*.js"
   },
   "keywords": [],
   "author": "Benjamin Meldal",
